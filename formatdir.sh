@@ -12,6 +12,7 @@ formatdir()
  echo try format dir [$dd]
  $fmt $dd/*.c
  $fmt $dd/*.h
+ $fmt $dd/*.cpp
  for f in $(dir -d $dd/* );
  do
 
